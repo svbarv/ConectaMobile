@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- Nombre del remitente -->
+        <TextView
+            android:id="@+id/textViewSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sender Name"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp" />
+
+        <!-- Contenido del mensaje -->
+        <TextView
+            android:id="@+id/textViewMessageContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message Content"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:layout_marginBottom="6dp" />
+
+        <!-- Hora del mensaje -->
+        <TextView
+            android:id="@+id/textViewTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:30"
+            android:textSize="12sp"
+            android:layout_gravity="end" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
